@@ -21,7 +21,7 @@ See details in `data/README.md`.
 ### Start training
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 sh train.sh
+$ CUDA_VISIBLE_DEVICES=0 sh train.sh
 ```
 
 See `opts.py` for the options.
@@ -48,7 +48,7 @@ after training under SCST loss for another 15 epochs, you will get:
 
 ## Reference
 
-If you find this repo useful, please consider citing:
+If you find this repo helpful, please consider citing:
 
 ```
 @inproceedings{huang2019attention,
