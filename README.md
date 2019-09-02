@@ -3,14 +3,14 @@
 This repository includes the implementation for [Attention on Attention for Image Captioning](https://arxiv.org/abs/1908.06954) (to appear in ICCV 2019 as oral presentation).
 
 ## Requirements
-```
-Python 3.6
-Java 1.8.0
-PyTorch 1.0
-cider (already been added as a submodule)
-coco-caption (already been added as a submodule)
-tensorboardX
-```
+
+- Python 3.6
+- Java 1.8.0
+- PyTorch 1.0
+- cider (already been added as a submodule)
+- coco-caption (already been added as a submodule)
+- tensorboardX
+
 
 ## Training AoANet
 
@@ -24,7 +24,7 @@ See details in `data/README.md`.
 $ CUDA_VISIBLE_DEVICES=0 sh train.sh
 ```
 
-See `opts.py` for the options.
+See `opts.py` for the options. (You can download the pretrained models from [here](https://drive.google.com/drive/folders/1ab0iPNyxdVm79ml-oozsIlH7H6t6dIVl?usp=sharing).)
 
 
 ### Evaluation
