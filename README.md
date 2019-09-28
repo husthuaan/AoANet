@@ -18,6 +18,9 @@ This repository includes the implementation for [Attention on Attention for Imag
 
 See details in `data/README.md`.
 
+You should also preprocess the dataset and get the cache for calculating cider score for [SCST](https://arxiv.org/abs/1612.00563):
+
+```$ python scripts/prepro_ngrams.py --input_json data/dataset_coco.json --dict_json data/cocotalk.json --output_pkl data/coco-train --split train```
 ### Start training
 
 ```bash
