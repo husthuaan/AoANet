@@ -1,6 +1,6 @@
 # Attention on Attention for Image Captioning
 
-This repository includes the implementation for [Attention on Attention for Image Captioning](https://arxiv.org/abs/1908.06954) (to appear in ICCV 2019 as oral presentation).
+This repository includes the implementation for [Attention on Attention for Image Captioning](https://arxiv.org/abs/1908.06954).
 
 ## Requirements
 
@@ -17,6 +17,8 @@ This repository includes the implementation for [Attention on Attention for Imag
 ### Prepare data
 
 See details in `data/README.md`.
+
+(**notes:** Set `word_count_threshold` in `scripts/prepro_labels.py` to 4 to generate a vocabulary of size 10,369.)
 
 You should also preprocess the dataset and get the cache for calculating cider score for [SCST](https://arxiv.org/abs/1612.00563):
 
