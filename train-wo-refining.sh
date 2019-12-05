@@ -14,7 +14,7 @@ python train.py --id $id \
     --num_heads 8 \
     --multi_head_scale 1 \
     --mean_feats 1 \
-    --ctx_drop 1 \
+    --ctx_drop 0 \
     --dropout_aoa 0.3 \
     --label_smoothing 0 \
     --input_json data/cocotalk.json \
@@ -51,7 +51,7 @@ python train.py --id $id \
     --num_heads 8 \
     --multi_head_scale 1 \
     --mean_feats 1 \
-    --ctx_drop 1 \
+    --ctx_drop 0 \
     --dropout_aoa 0.3 \
     --input_json data/cocotalk.json \
     --input_label_h5 data/cocotalk_label.h5 \
